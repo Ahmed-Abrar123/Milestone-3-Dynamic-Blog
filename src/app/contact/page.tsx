@@ -70,15 +70,19 @@ export default function Contact() {
         {/* Contact Info Section */}
         <div className="mt-12 text-center">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Get In Touch</h2>
-          <p className="text-lg text-gray-600 mb-2">You can also reach us through the following channels:</p>
+          {/* <p className="text-lg text-gray-600 mb-2">You can also reach us through the following channels:</p> */}
+          <p className="text-lg text-gray-600 mb-2">You can also reach us through the following channels&apos;:</p>
+
           <div className="flex justify-center space-x-8">
             <div className="text-center">
               <h3 className="text-xl font-semibold text-gray-800">Email</h3>
-              <a href="mailto:info@luxurycars.com" className="text-indigo-600">info@luxurycars.com</a>
+              {/* <a href="mailto:info@luxurycars.com" className="text-indigo-600">info@luxurycars.com</a> */}
+              <p className="text-indigo-600">info@luxurycars.com</p>
+
             </div>
             <div className="text-center">
               <h3 className="text-xl font-semibold text-gray-800">Phone</h3>
-              <a href="tel:+1234567890" className="text-indigo-600">+92 12345678901</a>
+              <p className="text-indigo-600">+92 12345678901</p>
             </div>
           </div>
         </div>
